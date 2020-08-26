@@ -1,0 +1,115 @@
+body{
+    background-color: #FA9A3C;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Spectral', serif;
+    z-index: 1;
+}
+nav {
+    z-index: 1;
+    width: 100%;
+    color: white;
+    background-color: #FA9A3C;
+    box-shadow: 0 8px 6px -6px #800020;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1vh 1.2vw;
+}
+nav ul {
+    list-style-type: none;
+    padding: 1vh 1.2vw;
+}
+nav li {
+    display: inline-block;
+    padding: 1vh 1.2vw;
+}
+nav a:hover {
+    border: 2px solid white;
+    border-radius: 1vh;
+}
+.margin {
+    margin: 0px 330px;
+}
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
+.page-header {
+    background: no-repeat left/cover url(Strawberry-background.jpg);
+    display: flex;
+    height: 465px;
+    min-width: 120px;
+    align-items: center;
+    color: #FA9A3C;
+}
+header.page-header > h1 {
+    font-size: 250px;
+    text-shadow: #1c1e2e 0 0 .2em;
+    text-align: center;
+    margin: 0 auto;
+}
+.image-gallery h1:first-child {
+    color: #1c1e2e;
+    font-size: 65px;
+    position: relative;
+    left: 30px;
+    top: 75px;
+    display: block;
+    line-height: 50px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    padding-top: 68px;
+}
+.image-gallery p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    margin: 0px;
+    padding: 130px;
+}
+.image-gallery img { 
+    float: left;
+    width:  269.81px;
+    height: 200px;
+    object-fit: cover;
+}
+.image-gallery a {
+    margin: 600px;
+    border: 2px solid #1c1e2e;
+    background-color: #1c1e2e;
+    color: white;
+    padding: 20px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.learnMore {
+    background-image: url(Splash-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop {
+    color: #1c1e2e;
+    font-size: 65px;
+    position: relative;
+    display: block;
+    line-height: 50px;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    padding-top: 68px;
+}
+.space {
+    padding: 40px;
+}
+foot {
+    color: #1c1e2e;
+}
+

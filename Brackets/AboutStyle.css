@@ -1,0 +1,99 @@
+body{
+    background-color: #FA9A3C;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Serif Display', serif;
+    z-index: 1;
+}
+nav {
+    z-index: 1;
+    width: 100%;
+    color: white;
+    background-color: #FA9A3C;
+    border: 1px solid #FA9A3C;
+    box-shadow: 0 8px 6px -6px #fca54c;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1vh 1.2vw;
+}
+nav ul {
+    list-style-type: none;
+    padding: 1vh 1.2vw;
+}
+nav li {
+    display: inline-block;
+    padding: 1vh 1.2vw;
+}
+nav a:hover {
+    border: 2px solid white;
+    border-radius: 1vh;
+}
+.margin {
+    margin: 0px 330px;
+}
+.page-header {
+    background: no-repeat left/cover url(Spinach-background.jpg);
+    display: flex;
+    height: 465px;
+    min-width: 120px;
+    align-items: center;
+    color: #FA9A3C;
+}
+header.page-header > h1 {
+    font-size: 250px;
+    text-shadow: #1c1e2e 0 0 .2em;
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    color: #1c1e2e;
+}
+foot {
+    color: #1c1e2e;
+}
+.history, .historyTitle {
+    text-align: center;
+    font-size: 25px;
+}
+.historyTitle {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    font-size: 25px;
+}
+.border {
+    margin-top: 20px;
+    border: 2px solid #1c1e2e;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    background-image: url(history.jpg);;
+}
+.info {
+    position: relative;
+    top: 400px;
+}
+ul li, p {
+    font-size: 16px;
+}
+img {
+    position: absolute;
+    left: 50%;
+    top 0%;
+}
+.hours {
+    background-color: #1c1e2e;
+    color: white; 
+    padding: 40px;
+}
+.hours h2 {
+    color: white;
+}
+
